@@ -173,6 +173,7 @@ except Exception as e:
 
 # --- UI 레이아웃 화면 그리기 ---
 st.title("🏋️‍♂️ 스포애니(SpoAny) 올인원 마케팅 모니터링 시스템")
+# st.write를 활용해 사용자가 새로고침(F5)을 하거나 필터를 바꿀 때마다 현재 '진짜 실시간' 시각을 찍어줍니다.
 st.markdown(f"**현재 모니터링 시각:** {datetime.now().strftime('%Y-%m-%d %H:%M:%S')} (최신 데이터 10분 주기 자동 동기화)"")
 st.divider()
 
