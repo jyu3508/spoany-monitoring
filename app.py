@@ -1,7 +1,7 @@
 import streamlit as st
 import requests
 import pandas as pd
-from datetime import datetime
+from datetime import datetime timedelta  # 💡 timedelta를 추가합니다.
 import re
 
 # 1. 웹페이지 기본 설정
